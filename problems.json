@@ -1,0 +1,18 @@
+{
+  "problems": [{
+    "name": "Multiples of 3 and 5",
+    "number": 1,
+    "answer": "233168",
+    "solution": "\nlet solution = 0;\nfor (i = 1; i < 1000; i++) {\n\tif (i % 3 === 0 || i % 5 === 0) {\n\t\tsolution += i;\n\t}\n}"
+  }, {
+    "name": "Even Fibonacci Numbers",
+    "number": 2,
+    "answer": "4613732",
+    "solution": "\r\n      let solution = 0;\r\n      let i = 1;\r\n      let j = 1;\r\n      let k = 0;\r\n\r\n      while (i < 4000000) {\r\n      \tif (i % 2 === 0) {\r\n          solution += i;\r\n        }\r\n        k = j;\r\n        j = i;\r\n        i = j + k;\r\n      }"
+    }, {
+      "name": "Largest Prime Factor",
+      "number": 3,
+      "answer": "6857",
+      "solution": "\r\n        let solution = 0;\r\n\r\n        for (i = 2; i < 600851475143; i++) {\r\n        if (600851475143 % i === 0 && i > solution) {\r\n          let bool = true;\r\n          for (j = 2; j < i; j++) {\r\n            if (i % j ===0) {\r\n              bool = false;\r\n            }\r\n          }\r\n          if (bool) {\r\n            solution = i;\r\n          }\r\n        }\r\n        }"
+  }]
+}

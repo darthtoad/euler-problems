@@ -1,28 +1,57 @@
-# EulerProblems
+# _Euler Problems_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+#### _My Journey Through Project Euler_
 
-## Development server
+#### By _**Sam Gespass**_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_I'm creating this app as a blog to keep track of my progress through Project Euler. I figure I can use this as an example for someone else who wants to make a similar project using Firebase and Angular._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Goals
 
-## Build
+* Keep track of problems.
+* Display my solution to problems.
+* Separate each problem into different components so visitors can see each problem one at a time using a dropdown menu.
+* Deploy to Github Pages or another service.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Setup/Installation Requirements
 
-## Running unit tests
+* Click on the following [link](https://github.com/darthtoad/Euler-Problems) to download the app
+* Go to the directory you downloaded the app into in the terminal
+* Create a file in the app directory called "api-keys.ts"
+* Get an
+* Run npm install in the terminal
+* Run bower install in the terminal
+* Run ng build in the terminal
+* Run ng serve in the terminal.
+* Open a browser window in localhost:4200.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
 
-## Running end-to-end tests
+_There are no known bugs. If you find any, please [message](mailto:darth.toad@gmail.com) me._
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Technologies Used
 
-## Further help
+* _Javascript_
+* _CSS_
+* _HTML_
+* _Atom_
+* _Bower_
+* _Git_
+* _GitHub_
+* _Angular_
+* _Typescript_
+* _Angular_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
+
+### License
+
+Copyright (c) 2017 ****_Sam Gespass_****
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
