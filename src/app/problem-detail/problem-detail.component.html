@@ -1,3 +1,4 @@
-<p>
-  problem-detail works!
-</p>
+<h2>{{(problemToDisplay | async)?.number}}. {{(problemToDisplay | async)?.name}}</h2>
+<h4>{{(problemToDisplay | async)?.answer}}</h4>
+<h5>Solution</h5>
+<p>{{(problemToDisplay | async)?.solution}}</p>
