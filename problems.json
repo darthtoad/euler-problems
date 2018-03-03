@@ -14,5 +14,10 @@
       "number": 3,
       "answer": "6857",
       "solution": "\r\n        let solution = 0;\r\n\r\n        for (i = 2; i < 600851475143; i++) {\r\n        if (600851475143 % i === 0 && i > solution) {\r\n          let bool = true;\r\n          for (j = 2; j < i; j++) {\r\n            if (i % j ===0) {\r\n              bool = false;\r\n            }\r\n          }\r\n          if (bool) {\r\n            solution = i;\r\n          }\r\n        }\r\n        }"
-  }]
+  }, {
+    "name": "Largest palindrome product",
+    "number": 4,
+    "answer": "906609",
+    "solution": "\r\n\r\n\r\n\r\nlet solution = 0;\r\n\r\nfor (let i = 100; i < 1000; i++) {\r\n  for (let j = 100; j < 1000; j++) {\r\n    let k = i * j;\r\n    if (k.toString() === k.toString().split('').reverse().join('') && k > solution) {\r\n  \t  solution = k;\r\n    }\r\n  }\r\n\r\n}"
+    }]
 }

@@ -1,6 +1,5 @@
 <h2>All Problems</h2>
 <div *ngFor="let problem of problems | async">
-  <h4>Problem Name: {{problem.name}}</h4>
-  <h4>Problem Number: {{problem.number}}</h4>
+  <h4>{{problem.number}}. {{problem.name}}</h4>
   <button (click)="seeDetails(problem)">See solution</button>
 </div>

@@ -17,9 +17,6 @@ _I'm creating this app as a blog to keep track of my progress through Project Eu
 
 ## Goals
 
-* Keep track of problems.
-* Display my solution to problems.
-* Separate each problem into different components so visitors can see each problem one at a time using a dropdown menu.
 * Improve layout
 * Be able to log into site and easily add solutions.
 * Deploy to Github Pages or another service.
