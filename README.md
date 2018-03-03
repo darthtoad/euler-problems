@@ -26,12 +26,15 @@ _I'm creating this app as a blog to keep track of my progress through Project Eu
 * Click on the following [link](https://github.com/darthtoad/Euler-Problems) to download the app
 * Go to the directory you downloaded the app into in the terminal
 * Create a file in the app directory called "api-keys.ts"
-* Get an
+* Make a project on Google Firebase
+* When you've made the project, click on "Add Firebase to your web app". Copy the "var config" part of the file into your api-keys.ts and write "export" before it.
+* When using Firebase, make sure that in the rules section of your database, read and write have values of "true".
 * Run npm install in the terminal
 * Run bower install in the terminal
 * Run ng build in the terminal
 * Run ng serve in the terminal.
 * Open a browser window in localhost:4200.
+* Optional: If you'd like some of my solutions starting out, add "problems.json" to your Firebase database by clicking on "Import JSON".
 
 ## Known Bugs
 
