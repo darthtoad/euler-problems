@@ -15,6 +15,7 @@ export class ProblemDetailComponent implements OnInit {
 
   problemId: string;
   problemToDisplay;
+  reconstructedSolution;
 
   constructor(private route: ActivatedRoute, private location: Location, private problemService: ProblemService) { }
 
@@ -22,7 +23,13 @@ export class ProblemDetailComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.problemId = urlParameters['id'];
     })
-    this.problemToDisplay = this.problemService.getProblemById(this.problemId);
+    this.problemService.getProblemById(this.problemId).subscribe(dataLastEmittedFromObserver => {
+      this.problemToDisplay = dataLastEmittedFromObserver;
+      this.reconstructedSolution = this.problemToDisplay.solution.replace("\r\n", "\\n").split("\n");
+      this.reconstructedSolution.forEach(function(line) {
+        console.log(line);
+      })
+    });
   }
 
 }

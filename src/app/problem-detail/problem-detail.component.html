@@ -1,4 +1,4 @@
-<h2>{{(problemToDisplay | async)?.number}}. {{(problemToDisplay | async)?.name}}</h2>
-<h4>{{(problemToDisplay | async)?.answer}}</h4>
+<h2>{{(problemToDisplay)?.number}}. {{(problemToDisplay)?.name}}</h2>
+<h4>{{(problemToDisplay)?.answer}}</h4>
 <h5>Solution</h5>
-<p>{{(problemToDisplay | async)?.solution}}</p>
+<pre><p>{{(problemToDisplay)?.solution}}</p></pre>
