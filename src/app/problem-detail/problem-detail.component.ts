@@ -25,10 +25,6 @@ export class ProblemDetailComponent implements OnInit {
     })
     this.problemService.getProblemById(this.problemId).subscribe(dataLastEmittedFromObserver => {
       this.problemToDisplay = dataLastEmittedFromObserver;
-      this.reconstructedSolution = this.problemToDisplay.solution.replace("\r\n", "\\n").split("\n");
-      this.reconstructedSolution.forEach(function(line) {
-        console.log(line);
-      })
     });
   }
 
