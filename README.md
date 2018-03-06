@@ -4,6 +4,8 @@
 
 #### By _**Sam Gespass**_
 
+#### _See working version at_ [link](https://euler-problems-971e9.firebaseapp.com)
+
 ## Description
 
 _I'm creating this app as a blog to keep track of my progress through Project Euler. I figure I can use this as an example for someone else who wants to make a similar project using Firebase and Angular._
